@@ -81,6 +81,70 @@
                 <module>play-licensing</module>
                 <module>play-apk-expansion</module>
             </modules>
+	</profile>
+
+        <profile>
+            <id>r4</id>
+            <modules>
+                <module>compatibility-v4</module>
+            </modules>
+        </profile>
+
+        <profile>
+            <id>r7</id>
+            <modules>
+                <module>compatibility-v7</module>
+            </modules>
+        </profile>
+
+        <profile>
+            <id>r13</id>
+            <modules>
+                <module>compatibility-v13</module>
+            </modules>
+        </profile>
+
+        <profile>
+	    <id>analytics</id>
+            <modules>
+                <module>analytics-v2</module>
+            </modules>
+        </profile>
+
+        <profile>
+	    <id>admob</id>
+            <modules>
+                <module>admob</module>
+            </modules>
+        </profile>
+
+        <profile>
+	    <id>gcm</id>
+            <modules>
+                <module>gcm</module>
+            </modules>
+        </profile>
+
+        <profile>
+	    <id>play-service</id>
+            <modules>
+                <module>google-play-services</module>
+            </modules>
+        </profile>
+
+        <profile>
+	    <id>play-licensing</id>
+            <modules>
+	    	<module>play-licensing</module>
+            </modules>
+        </profile>
+
+
+        <profile>
+	    <id>play-apk-expansion</id>
+            <modules>
+	    	<module>play-apk-expansion</module>
+            </modules>
         </profile>
     </profiles>
 </project>
